@@ -274,7 +274,7 @@ elif cake.system.isLinux() or cake.system.isDarwin():
     llvmArExe=llvmArExe,
     binPaths=[clangBinPath])
 
-  compiler.addCppFlag('-std=c++1z')
+  compiler.addCppFlag('-std=c++20')
   compiler.addCppFlag('-fcoroutines-ts')
   compiler.addCppFlag('-m64')
 
